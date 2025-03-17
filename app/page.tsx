@@ -4,7 +4,7 @@ import { useState } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // 🌟 Google AI API Anahtarını Buraya Gir (Güvenli sakla!)
-const genAI = new GoogleGenerativeAI("YOUR-API-KEY");
+const genAI = new GoogleGenerativeAI("AIzaSyCR9eFxuIvdtgtUPeN1LhjoXGMRI8IPAQU");
 
 type Message = {
   role: "user" | "assistant";
